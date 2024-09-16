@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #555;
+}
+
+.introduction {
+    text-align: center;
+    padding: 20px;
+}
+
+.more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.more-btn:hover {
+    background-color: #555;
+}
+
+#games {
+    padding: 20px;
+}
+
+.game-list {
+    list-style: none;
+    padding: 0;
+}
+
+.game-list li {
+    margin-bottom: 10px;
+}
+
+.game-list a {
+    text-decoration: none;
+    color: #333;
+}
+
+.game-list a:hover {
+    text-decoration: underline;
+}
+
+.game-details {
+    margin-bottom: 40px;
+}
+
+.game-images img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: #555;
+}

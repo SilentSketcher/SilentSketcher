@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Sketcher - Indie Game Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Logo and Main Heading -->
+    <header>
+        <div class="logo">
+            <h1>Silent Sketcher</h1>
+        </div>
+        <h2>Indie Game Developer</h2>
+    </header>
+
+    <!-- Introduction -->
+    <section class="introduction">
+        <p>Welcome to the official website of Silent Sketcher, an indie game developer. Here you'll find my latest games and projects. Explore my work and download the games to enjoy the experience!</p>
+    </section>
+
+    <!-- Games List -->
+    <nav>
+        <h3>Games</h3>
+        <ul>
+            <li><a href="#game1" onclick="scrollToGame(1)">Game 1</a></li>
+            <li><a href="#game2" onclick="scrollToGame(2)">Game 2</a></li>
+            <li><a href="#game3" onclick="scrollToGame(3)">Game 3</a></li>
+            <li><a href="#game4" onclick="scrollToGame(4)">Game 4</a></li>
+            <li><a href="#game5" onclick="scrollToGame(5)">Game 5</a></li>
+            <li><a href="#game6" onclick="scrollToGame(6)">Game 6</a></li>
+            <li><a href="#game7" onclick="scrollToGame(7)">Game 7</a></li>
+            <li><a href="#game8" onclick="scrollToGame(8)">Game 8</a></li>
+            <li><a href="#game9" onclick="scrollToGame(9)">Game 9</a></li>
+            <li><a href="#game10" onclick="scrollToGame(10)">Game 10</a></li>
+        </ul>
+    </nav>
+
+    <!-- Game Details -->
+    <section class="game-details">
+        <div id="game1">
+            <h3>Game 1</h3>
+            <div class="game-content">
+                <img src="game1-img1.jpg" alt="Game 1 Image 1">
+                <img src="game1-img2.jpg" alt="Game 1 Image 2">
+                <img src="game1-img3.jpg" alt="Game 1 Image 3">
+                <img src="game1-img4.jpg" alt="Game 1 Image 4">
+                <p>Description of Game 1</p>
+                <p><strong>Release Date:</strong> January 1, 2024</p>
+                <a href="game1-download.zip" class="download-btn">Download Game</a>
+            </div>
+        </div>
+
+        <!-- Repeat for other games -->
+        <div id="game2">
+            <h3>Game 2</h3>
+            <div class="game-content">
+                <img src="game2-img1.jpg" alt="Game 2 Image 1">
+                <img src="game2-img2.jpg" alt="Game 2 Image 2">
+                <img src="game2-img3.jpg" alt="Game 2 Image 3">
+                <img src="game2-img4.jpg" alt="Game 2 Image 4">
+                <p>Description of Game 2</p>
+                <p><strong>Release Date:</strong> February 15, 2024</p>
+                <a href="game2-download.zip" class="download-btn">Download Game</a>
+            </div>
+        </div>
+
+        <!-- Add similar sections for other games up to Game 10 -->
+
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
